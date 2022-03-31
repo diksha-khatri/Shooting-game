@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Player Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h2 id="msg">Let's Play</h2>
+        <div id="game" class="game">
+            
+            <div>
+                <span><h3>Player 1 Won: </h2></span>
+                <span id="P1Win">0</span>
+            
+                <div class="player1 player1-background">
+                    <h1 id="player1turn">Player 1</h1>
+                    <div id="p1s">
+                        <span>Score:</span>
+                        <span id="player1Score">10</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span><h3>Player 2 Won: </h2></span>
+                <span id="P2Win">0</span>
+            
+                <div class="player2 player2-background">
+                    <h1 id="player2turn">Player 2</h1>
+                    <div id="p2s">
+                        <span>Score:</span>
+                        <span id="player2Score">10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="attack" class="Dnone attack-btn">Attack</button>
+        <button id="next-round" class="Dnone next-btn">Next Round</button>
+        <button id="startgame" class="Dblock start-btn">Start Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
